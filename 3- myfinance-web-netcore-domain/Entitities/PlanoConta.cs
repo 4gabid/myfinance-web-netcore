@@ -1,6 +1,8 @@
-﻿namespace myfinance_web_netcore_domain;
+﻿namespace myfinance_web_netcore_domain.Entities;
 
-public class Class1
+public class PlanoConta
 {
-
+    public int Id {get; set;}
+    public string Descricao {get; set;}
+    public string Tipo {get; set;}
 }
