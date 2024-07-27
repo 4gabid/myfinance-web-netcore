@@ -8,9 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\2- myfinance-web-netcore-service\myfinance-web-netcore-service.csproj"/>
-    <ProjectReference Include="..\3- myfinance-web-netcore-domain\myfinance-web-netcore-domain.csproj"/>
-    <ProjectReference Include="..\4- myfinance-web-netcore-infra\myfinance-web-netcore-infra.csproj"/>
+    <ProjectReference Include="..\2- myfinance-web-netcore-service\myfinance-web-netcore-service.csproj" />
+    <ProjectReference Include="..\3- myfinance-web-netcore-domain\myfinance-web-netcore-domain.csproj" />
+    <ProjectReference Include="..\4- myfinance-web-netcore-infra\myfinance-web-netcore-infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.6.24327.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0-preview.6.24327.4" />
   </ItemGroup>
 
 
